@@ -11,3 +11,6 @@ Extracted animations for Beatrun's sources.
 * When you done editing your animation, export it in SMD format in the `climbanim_anims` folder.
 * And when you are ready, you can compile `climbanim.qc` into MDL file (I suggest using [Crowbar](https://github.com/ZeqMacaw/Crowbar/releases/download/v0.74/Crowbar_2023-02-16_0.74.7z) ([Source](https://github.com/ZeqMacaw/Crowbar)))
 * Copy `models` folder from `compiled 0.XX` to `beatrun\gamemodes\beatrun\content\models` and select Replace.
+
+### Recommended Crowbar settings
+![image](https://github.com/JonnyBro/beatrun-anims/assets/48434875/d3baa677-eb7f-403a-ad9d-bef6527785d3)
