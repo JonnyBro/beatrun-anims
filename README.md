@@ -1,5 +1,5 @@
 # Beatrun Animations
-Animations for Beatrun
+Extracted animations for Beatrun's sources.
 
 #### **Plese don't push your `br_breen.blend` file!**
 
