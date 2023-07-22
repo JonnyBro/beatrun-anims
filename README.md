@@ -4,7 +4,7 @@ Extracted animations for Beatrun's sources.
 #### **Plese don't push your `br_breen.blend` file in pull requests!**
 
 ## How to edit
-> You need to know how to use Blender and it's animation thing!
+> You need to know how to use Blender and it's animation thing!\
 > You also need to install Blender Source Tools from [here](http://steamreview.org/BlenderSourceTools/)!
 
 * You can open `br_breen.blend` in Blender, it's already setup for you.
