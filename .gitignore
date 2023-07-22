@@ -1,2 +1,2 @@
-# Ignore Blender's backups
-*.blend1
+# Ignore Blender files
+*.blend*
