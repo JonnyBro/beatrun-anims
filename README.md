@@ -1,7 +1,7 @@
 # Beatrun Animations
 Extracted animations for Beatrun's sources.
 
-#### **Plese don't push your `br_breen.blend` file!**
+#### **Plese don't push your `br_breen.blend` file in pull requests!**
 
 ## How to edit
 > You need to know how to use Blender and it's animation thing!
