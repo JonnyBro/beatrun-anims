@@ -1,7 +1,8 @@
 # Beatrun Animations
 Extracted animations for Beatrun's sources.
 
-#### **Plese don't push your `br_breen.blend` file in pull requests!**
+## Blender Project File
+Because Blender file is too big for Github, you can download it from my Google Drive [here](https://drive.google.com/file/d/1FaBClEI0EC0tWlfQAFhVmvZNCt7iFRRY/view?usp=sharing)
 
 ## How to edit
 > You need to know how to use Blender and it's animation thing!\
