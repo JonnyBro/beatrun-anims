@@ -1072,7 +1072,7 @@ $sequence "zipline" {
 
 $sequence "jumpzipline" {
 	"climbanim_anims\jumpzipline.smd"
-	fadein 0.75
+	fadein 2
 	fadeout 0.5
 	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 44 44 target 0
