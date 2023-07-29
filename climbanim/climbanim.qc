@@ -328,7 +328,7 @@ $sequence "jumpslow" {
 	"climbanim_anims\jumpslow.smd"
 	fadein 0.05
 	fadeout 0.4
-	fps 30
+	fps 37
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 44 44 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 44 44 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 44 44 target 2
@@ -339,7 +339,7 @@ $sequence "jumpfast" {
 	"climbanim_anims\jumpfast.smd"
 	fadein 0.1
 	fadeout 0.4
-	fps 30
+	fps 40
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 44 44 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 44 44 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 44 44 target 2
@@ -480,7 +480,7 @@ $sequence "vaultover" {
 	"climbanim_anims\vaultover.smd"
 	fadein 0.5
 	fadeout 2
-	fps 30
+	fps 28
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 2
@@ -490,7 +490,7 @@ $sequence "vaultover" {
 $sequence "springboardleftleg" {
 	"climbanim_anims\springboardleftleg.smd"
 	fadein 0.5
-	fadeout 2
+	fadeout 0.3
 	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 43 43 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 43 43 target 1
