@@ -1,7 +1,0 @@
-// Created by Crowbar 0.72
-====== File Size ======
-	64
-====== File Seek Log ======
-	0 - 63 VVD File Header
-	64 - 64 [ERROR] [ERROR] END OF FILE + 1 (File size); [64 - 63] theVertexes 0; [64 - 63] theTangents 0
-========================
