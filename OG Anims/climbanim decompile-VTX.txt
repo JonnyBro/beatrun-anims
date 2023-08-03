@@ -1,0 +1,11 @@
+// Created by Crowbar 0.72
+====== File Size ======
+	72
+====== File Seek Log ======
+	0 - 35 VTX File Header (Actual version: 7; override version: 7); VTX File Header (Actual version: 7; override version: 7)
+	36 - 43 theVtxFileData.theVtxBodyParts 1
+	44 - 51 aBodyPart.theVtxModels 1
+	52 - 63 aModel.theVtxModelLods 1
+	64 - 71 theVtxFileData.theVtxMaterialReplacementLists 1
+	72 - 72 END OF FILE + 1 (File size)
+========================

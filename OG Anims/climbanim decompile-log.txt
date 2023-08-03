@@ -1,0 +1,178 @@
+// Created by Crowbar 0.72
+
+  Decompiling "climbanim.mdl" ...
+    Model version 48 detected.
+    Reading MDL file header ...
+    ... Reading MDL file header finished.
+    Checking for required files ...
+    ... All required files found.
+    Reading data ...
+      Reading MDL file ...
+      ... Reading MDL file finished.
+      Reading VTX file ...
+      ... Reading VTX file finished.
+      Reading VVD file ...
+      ... Reading VVD file finished.
+    ... Reading data finished.
+    Writing decompile-info files ...
+        climbanim decompile-MDL.txt
+        climbanim decompile-VTX.txt
+        climbanim decompile-VVD.txt
+    ... Writing decompile-info files finished.
+    Writing data ...
+      QC file: 
+        climbanim.qc
+      Reference mesh files: 
+        climbanim.smd
+      LOD mesh files: 
+      Bone animation files: 
+        climb1.smd
+        climb2.smd
+        slidestart.smd
+        slideloop.smd
+        slideend.smd
+        meslidestart.smd
+        meslideloop.smd
+        meslideend.smd
+        meroll.smd
+        mecoil.smd
+        jumpslow.smd
+        jumpfast.smd
+        jumpwrleft.smd
+        jumpair.smd
+        jumpidle.smd
+        runfwd.smd
+        sprintfwd.smd
+        wallrunrightstart.smd
+        wallrunright.smd
+        standhurt.smd
+        standhurt_2.smd
+        stand.smd
+        jumpcoil.smd
+        jumpcoilend.smd
+        vaultover.smd
+        springboardleftleg.smd
+        wallrunleftstart.smd
+        wallrunleft.smd
+        runbwd.smd
+        walktostandleft.smd
+        vaultontohigh.smd
+        jumpturnfly.smd
+        jumpturnflyidle.smd
+        jumpturnland.smd
+        jumpturnlandidle.smd
+        jumpturnlandstand.smd
+        jumpturnlandstandgun.smd
+        wallrunverticalstart.smd
+        wallrunvertical.smd
+        wallrunverticalturn.smd
+        meslideendprone.smd
+        stepuprightleg.smd
+        vaultoverhigh.smd
+        jumpwrright.smd
+        fallinguncontrolled.smd
+        vaultonto.smd
+        ladderenterbottom.smd
+        ladderclimbuplefthand.smd
+        ladderclimbuplefthandstill.smd
+        ladderclimbuprighthand.smd
+        ladderclimbuprighthandstill.smd
+        ladderexittoplefthand.smd
+        ladderexittoprighthand.smd
+        ladderclimbhangstart.smd
+        hangpose.smd
+        hangpose_2.smd
+        hangpose_3.smd
+        hangpose_4.smd
+        hangpose_5.smd
+        hangpose_6.smd
+        hangpose_7.smd
+        hangpose_8.smd
+        hangpose_9.smd
+        hangpose_10.smd
+        hangpose_11.smd
+        hangpose_12.smd
+        hangpose_13.smd
+        hangpose_14.smd
+        hangpose_15.smd
+        hang.smd
+        hangheaveup.smd
+        hanghardstartvertical.smd
+        hangstrafeleft.smd
+        hangstraferight.smd
+        hangfoldedstart.smd
+        hangfoldedendhang.smd
+        hangfoldedheaveup.smd
+        hanghardstart2.smd
+        snatchscar.smd
+        snatchsniper.smd
+        dodgejumpleft.smd
+        dodgejumpright.smd
+        runfwdstart.smd
+        crouchfwd.smd
+        crouchbwd.smd
+        crouchstill.smd
+        hanghardstart.smd
+        ziplinestart.smd
+        zipline.smd
+        jumpzipline.smd
+        vaultkong.smd
+        bargein.smd
+        meleeslide.smd
+        meleeair.smd
+        meleeairhit.smd
+        meleeairstill.smd
+        meleewrleft.smd
+        meleewrright.smd
+        diestand.smd
+        diestandlong.smd
+        walkfwd.smd
+        jumpstill.smd
+        ladderclimbdownfast.smd
+        walkbalancedfwdlean.smd
+        walkbalancedfwdlean_2.smd
+        walkbalancedfwdlean_3.smd
+        walkbalancedstilllean.smd
+        walkbalancedstilllean_2.smd
+        walkbalancedstilllean_3.smd
+        walkbalancefwd.smd
+        walkbalancelosebalanceleft.smd
+        walkbalancelosebalanceright.smd
+        walkbalancefalloffright.smd
+        walkbalancefalloffleft.smd
+        walkbalancestill.smd
+        grapplepose.smd
+        grapplepose_2.smd
+        grapplepose_3.smd
+        grapplepose_4.smd
+        grapplepose_5.smd
+        grapplepose_6.smd
+        grapplepose_7.smd
+        grapplepose_8.smd
+        grapplepose_9.smd
+        grapplecenter.smd
+        swing.smd
+        swing_2.smd
+        swing_3.smd
+        swingstraight.smd
+        swingjumpoff.smd
+        runland.smd
+        run_pose.smd
+        run_pose_2.smd
+        runpose.smd
+        meslidestart45.smd
+        meslideloop45.smd
+        divestart.smd
+        diveidle.smd
+        diveslidestart.smd
+        diveslideidle.smd
+        diveslideend.smd
+        evaderoll.smd
+        punchright.smd
+        punchleft.smd
+        punchmid.smd
+        doorbash.smd
+      DeclareSequence QCI file: 
+        climbanim_DeclareSequence.qci
+    ... Writing data finished.
+  ... Decompiling "climbanim.mdl" finished.
