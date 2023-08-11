@@ -969,7 +969,7 @@ $sequence "snatchsniper" {
 $sequence "dodgejumpleft" {
 	"climbanim_anims\dodgejumpleft.smd"
 	fadein 0.1
-	fadeout 1.5
+	fadeout 2
 	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 1
@@ -980,7 +980,7 @@ $sequence "dodgejumpleft" {
 $sequence "dodgejumpright" {
 	"climbanim_anims\dodgejumpright.smd"
 	fadein 0.1
-	fadeout 1.5
+	fadeout 2
 	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 1
