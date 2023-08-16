@@ -489,7 +489,7 @@ $sequence "vaultover" {
 
 $sequence "springboardleftleg" {
 	"climbanim_anims\springboardleftleg.smd"
-	fadein 0.1
+	fadein 0.3
 	fadeout 0.3
 	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 43 43 target 0
