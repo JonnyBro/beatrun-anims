@@ -1483,7 +1483,7 @@ local function JumpThink()
 						if ply:KeyDown(IN_FORWARD) then
 							moveback = false
 						else
-							BodyAnim:SetSequence(BodyAnim:LookupSequence("crouchbwd"))
+							BodyAnim:SetSequence(BodyAnim:LookupSequence("runbwd"))
 						end
 					end
 
