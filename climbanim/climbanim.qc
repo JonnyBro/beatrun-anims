@@ -24,7 +24,7 @@ $cdmaterials "models\climbanim\"
 $attachment "camerajoint" "CameraJoint" 0 0 0 rotate 0 -80.1 -90
 $attachment "eyes" "ValveBiped.Bip01_Head1" 2.86 -3.48 0.11 rotate 0 -80.1 -90
 $attachment "mouth" "ValveBiped.Bip01_Head1" 0.8 -5.8 -0.15 rotate 0 -80 -90
-$attachment "chest" "ValveBiped.Bip01_Spine2" 5 4 0 rotate 0 90 90
+$attachment "chest" "ValveBiped.Bip01_Head1" 2.86 -3.48 0.11 rotate 0 -80.1 -90
 $attachment "forward" "ValveBiped.forward" 0 0 0 rotate 0 0 0
 $attachment "anim_attachment_RH" "ValveBiped.Anim_Attachment_RH" 0 0 0 rotate -90 -90 0
 $attachment "anim_attachment_LH" "ValveBiped.Anim_Attachment_LH" 0 0 0 rotate -90 -90 0
