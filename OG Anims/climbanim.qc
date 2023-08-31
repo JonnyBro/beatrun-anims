@@ -1106,7 +1106,7 @@ $sequence "bargein" {
 $sequence "meleeslide" {
 	"climbanim_anims\meleeslide.smd"
 	fadein 0.2
-	fadeout 0.5
+	fadeout 0.2
 	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 19 19 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 19 19 target 1
