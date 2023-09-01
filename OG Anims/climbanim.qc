@@ -408,7 +408,7 @@ $sequence "wallrunrightstart" {
 	"climbanim_anims\wallrunrightstart.smd"
 	fadein 0.3
 	fadeout 0.3
-	fps 35
+	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 14 14 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 14 14 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 14 14 target 2
@@ -419,7 +419,7 @@ $sequence "wallrunright" {
 	"climbanim_anims\wallrunright.smd"
 	fadein 0.3
 	fadeout 0.1
-	fps 40
+	fps 30
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 15 15 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 15 15 target 1
@@ -502,7 +502,7 @@ $sequence "wallrunleftstart" {
 	"climbanim_anims\wallrunleftstart.smd"
 	fadein 0.3
 	fadeout 0.3
-	fps 35
+	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 14 14 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 14 14 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 14 14 target 2
@@ -513,7 +513,7 @@ $sequence "wallrunleft" {
 	"climbanim_anims\wallrunleft.smd"
 	fadein 0.3
 	fadeout 0.1
-	fps 40
+	fps 30
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 15 15 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 15 15 target 1
