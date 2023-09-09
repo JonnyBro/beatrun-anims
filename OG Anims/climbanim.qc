@@ -1607,7 +1607,6 @@ $sequence "water_float" {
 	"climbanim_anims\water_float.smd"
 	fadein 0.75
 	fadeout 1
-	addlayer "water_pose"
 	fps 60
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
@@ -1620,7 +1619,6 @@ $sequence "water_swimfwd" {
 	"climbanim_anims\water_pose_2.smd"
 	fadein 0.75
 	fadeout 1
-	addlayer "water_pose"
 	fps 60
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
@@ -1633,7 +1631,6 @@ $sequence "water_swimright" {
 	"climbanim_anims\water_pose_4.smd"
 	fadein 0.75
 	fadeout 1
-	addlayer "water_pose"
 	fps 60
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
@@ -1646,7 +1643,6 @@ $sequence "water_swimleft" {
 	"climbanim_anims\water_pose_6.smd"
 	fadein 0.75
 	fadeout 1
-	addlayer "water_pose"
 	fps 60
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
@@ -1659,7 +1655,6 @@ $sequence "water_swimback" {
 	"climbanim_anims\water_pose_8.smd"
 	fadein 0.75
 	fadeout 1
-	addlayer "water_pose"
 	fps 60
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
