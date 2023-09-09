@@ -1604,7 +1604,7 @@ $sequence "water_pose" {
 }
 
 $sequence "water_float" {
-	"climbanim_anims\water_float.smd"
+	"climbanim_anims\water_pose_5.smd"
 	fadein 0.75
 	fadeout 1
 	fps 60
