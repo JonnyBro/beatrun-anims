@@ -1581,22 +1581,11 @@ $sequence "doorbash" {
 }
 
 
-$sequence "water_pose" {
-	"climbanim_anims\water_pose.smd"
-	"climbanim_anims\water_pose_2.smd"
-	"climbanim_anims\water_pose_3.smd"
-	"climbanim_anims\water_pose_4.smd"
-	"climbanim_anims\water_pose_5.smd"
-	"climbanim_anims\water_pose_6.smd"
-	"climbanim_anims\water_pose_7.smd"
-	"climbanim_anims\water_pose_8.smd"
-	"climbanim_anims\water_pose_9.smd"
-	blend "water_pitch" -90 90
-	blend "water_yaw" -90 90
+$sequence "water_in" {
+	"climbanim_anims\water_in.smd"
 	fadein 0.75
-	fadeout 1
-	fps 60
-	loop
+	fadeout 0.75
+	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2
@@ -1604,10 +1593,10 @@ $sequence "water_pose" {
 }
 
 $sequence "water_float" {
-	"climbanim_anims\water_pose_5.smd"
+	"climbanim_anims\water_float.smd"
 	fadein 0.75
 	fadeout 1
-	fps 60
+	fps 30
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
@@ -1616,10 +1605,10 @@ $sequence "water_float" {
 }
 
 $sequence "water_swimfwd" {
-	"climbanim_anims\water_pose_2.smd"
+	"climbanim_anims\water_swimfwd.smd"
 	fadein 0.75
-	fadeout 1
-	fps 60
+	fadeout 0.75
+	fps 30
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
@@ -1628,10 +1617,10 @@ $sequence "water_swimfwd" {
 }
 
 $sequence "water_swimright" {
-	"climbanim_anims\water_pose_4.smd"
+	"climbanim_anims\water_swimright.smd"
 	fadein 0.75
-	fadeout 1
-	fps 60
+	fadeout 0.75
+	fps 30
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
@@ -1640,10 +1629,10 @@ $sequence "water_swimright" {
 }
 
 $sequence "water_swimleft" {
-	"climbanim_anims\water_pose_6.smd"
+	"climbanim_anims\water_swimleft.smd"
 	fadein 0.75
 	fadeout 1
-	fps 60
+	fps 30
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
@@ -1652,11 +1641,22 @@ $sequence "water_swimleft" {
 }
 
 $sequence "water_swimback" {
-	"climbanim_anims\water_pose_8.smd"
+	"climbanim_anims\water_swimback.smd"
 	fadein 0.75
-	fadeout 1
-	fps 60
+	fadeout 0.75
+	fps 30
 	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 3
+}
+
+$sequence "water_out" {
+	"climbanim_anims\water_out.smd"
+	fadein 0.75
+	fadeout 0.75
+	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 1 1 target 2
