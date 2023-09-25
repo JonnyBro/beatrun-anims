@@ -1859,7 +1859,8 @@ $sequence "standhandwallright" {
 	"climbanim_anims\standhandwallright.smd"
 	fadein 0.4
 	fadeout 0.4
-	fps 60
+	fps 30
+	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 2
@@ -1870,7 +1871,8 @@ $sequence "standhandwallleft" {
 	"climbanim_anims\standhandwallleft.smd"
 	fadein 0.4
 	fadeout 0.4
-	fps 60
+	fps 30
+	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 2
@@ -1881,7 +1883,8 @@ $sequence "standhandwallboth" {
 	"climbanim_anims\standhandwallboth.smd"
 	fadein 0.4
 	fadeout 0.4
-	fps 60
+	fps 30
+	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
