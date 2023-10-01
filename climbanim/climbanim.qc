@@ -456,7 +456,7 @@ $sequence "stand" {
 
 $sequence "jumpcoil" {
 	"climbanim_anims\jumpcoil.smd"
-	fadein 0.2
+	fadein 0.1
 	fadeout 0.1
 	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 0
@@ -1395,8 +1395,8 @@ $sequence "swingstraight" {
 
 $sequence "swingjumpoff" {
 	"climbanim_anims\swingjumpoff.smd"
-	fadein 0.25
-	fadeout 0.5
+	fadein 0.1
+	fadeout 0.2
 	fps 30
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 0
