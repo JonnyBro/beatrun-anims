@@ -2,7 +2,7 @@
 Extracted and changed animations for Beatrun's sources.
 
 ## Blender Project File
-Because Blender file is too big for Github, you can download it from my Google Drive [here](https://drive.google.com/file/d/1FaBClEI0EC0tWlfQAFhVmvZNCt7iFRRY/view?usp=sharing)
+Because Blender file is too big for Github, you can download it from my Google Drive [here](https://drive.google.com/file/d/1DS_BUlo8XvivBzm3JYZqmdJeb0E10iCk/view?usp=sharing)
 
 ## How to edit
 > You need to know how to use Blender and it's animation thing!\
