@@ -1397,7 +1397,7 @@ $sequence "swingjumpoff" {
 	"climbanim_anims\swingjumpoff.smd"
 	fadein 0.25
 	fadeout 0.5
-	fps 30
+	fps 60
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 1
