@@ -372,7 +372,7 @@ $sequence "jumpidle" {
 	"climbanim_anims\jumpidle.smd"
 	fadein 5
 	fadeout 5
-	fps 30
+	fps 45
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
@@ -703,7 +703,7 @@ $sequence "jumpwrright" {
 
 $sequence "fallinguncontrolled" {
 	"climbanim_anims\fallinguncontrolled.smd"
-	fadein 0.3
+	fadein 3
 	fadeout 0.3
 	fps 30
 	loop
