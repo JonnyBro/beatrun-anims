@@ -370,7 +370,7 @@ $sequence "jumpair" {
 
 $sequence "jumpidle" {
 	"climbanim_anims\jumpidle.smd"
-	fadein 5
+	fadein 3
 	fadeout 5
 	fps 45
 	loop
