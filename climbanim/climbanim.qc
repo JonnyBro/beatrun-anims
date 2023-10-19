@@ -1817,3 +1817,12 @@ $sequence "merollgun" {
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 3
 }
+
+$sequence "landgun" {
+	"mirroranim_anims\landgun.smd"
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 55
+}
+
