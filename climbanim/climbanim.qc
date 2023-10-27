@@ -1693,7 +1693,7 @@ $sequence "land" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 55
+	fps 65
 }
 
 $sequence "kick" {
@@ -1823,6 +1823,6 @@ $sequence "landgun" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 55
+	fps 65
 }
 
