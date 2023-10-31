@@ -1529,7 +1529,7 @@ $sequence "evaderoll" {
 	"climbanim_anims\evaderoll.smd"
 	fadein 0.1
 	fadeout 0.1
-	fps 30
+	fps 35
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 2
@@ -1693,7 +1693,7 @@ $sequence "land" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 65
+	fps 74
 }
 
 $sequence "kick" {
@@ -1823,6 +1823,6 @@ $sequence "landgun" {
 	fadein 0.2
 	fadeout 0.2
 	snap
-	fps 65
+	fps 99
 }
 
