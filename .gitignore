@@ -1,2 +1,5 @@
 # Ignore Blender files
 *.blend*
+
+# CMD
+*.bat
