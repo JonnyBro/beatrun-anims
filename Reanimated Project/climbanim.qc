@@ -1,5 +1,5 @@
 
-$modelname "climbanim.mdl"
+$modelname "new_climbanim.mdl"
 
 $bodygroup "studio"
 {
