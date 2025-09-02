@@ -324,6 +324,17 @@ $sequence "meroll" {
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 3
 }
 
+$sequence "merollcrouch" {
+	"climbanim_anims\merollcrouch.smd"
+	fadein 0.1
+	fadeout 0.1
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 3
+}
+
 $sequence "mecoil" {
 	"climbanim_anims\mecoil.smd"
 	fadein 0.1
@@ -1571,6 +1582,17 @@ $sequence "evaderoll" {
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 3
 }
 
+$sequence "evaderollcrouch" {
+	"climbanim_anims\evaderollcrouch.smd"
+	fadein 0.1
+	fadeout 0.1
+	fps 34
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 3
+}
+
 $sequence "punchright" {
 	"climbanim_anims\punchright.smd"
 	fadein 0.1
@@ -1731,6 +1753,14 @@ $sequence "land" {
 	fps 55
 }
 
+$sequence "landcrouch" {
+	"mirroranim_anims\landcrouch.smd"
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 55
+}
+
 $sequence "kick" {
 	"climbanim_anims\kick.smd"
 	fadein 0.001
@@ -1853,6 +1883,17 @@ $sequence "merollgun" {
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 3
 }
 
+$sequence "merollguncrouch" {
+	"climbanim_anims\merollguncrouch.smd"
+	fadein 0.1
+	fadeout 0.1
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 37 37 target 3
+}
+
 $sequence "landgun" {
 	"mirroranim_anims\landgun.smd"
 	fadein 0.2
@@ -1860,6 +1901,15 @@ $sequence "landgun" {
 	snap
 	fps 55
 }
+
+$sequence "landguncrouch" {
+	"mirroranim_anims\landguncrouch.smd"
+	fadein 0.2
+	fadeout 0.2
+	snap
+	fps 55
+}
+
 
 $sequence "jumpcoilcatalyst" {
 	"climbanim_anims\jumpcoilcatalyst.smd"
