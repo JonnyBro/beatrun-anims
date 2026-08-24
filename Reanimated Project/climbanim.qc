@@ -6,12 +6,11 @@ $bodygroup "studio"
 	studio "climbanim.smd"
 }
 
-
 $surfaceprop "flesh"
 
 $contents "solid"
 
-$illumposition -0.837 -16.789 63.697
+$illumposition 0 0 0 ValveBiped.Bip01_Spine2
 
 $eyeposition 0 0 70
 
