@@ -6,6 +6,7 @@ $bodygroup "studio"
 	studio "climbanim.smd"
 }
 
+
 $surfaceprop "flesh"
 
 $contents "solid"
@@ -200,6 +201,8 @@ $poseparameter "hang_pitch" -90 90 loop 0
 $poseparameter "hurt" 0 90 loop 0
 $poseparameter "water_yaw" -90 90 loop 0
 $poseparameter "water_pitch" -90 90 loop 0
+$poseparameter "move_y" -1 1 loop 0
+$poseparameter "move_x" -1 1 loop 0
 
 $ikchain "rhand" "ValveBiped.Bip01_R_Hand" knee 0.707 0.707 0
 $ikchain "lhand" "ValveBiped.Bip01_L_Hand" knee 0.707 0.707 0
@@ -402,10 +405,21 @@ $sequence "jumpidle" {
 }
 
 $sequence "runfwd" {
-	"climbanim_anims\runfwd.smd"
+	"climbanim_anims\runfwdSW.smd"
+	"climbanim_anims\runfwdW.smd"
+	"climbanim_anims\runfwdNW.smd"
+	"climbanim_anims\runfwdS.smd"
+	"climbanim_anims\stand.smd"
+	"climbanim_anims\runfwdN.smd"
+	"climbanim_anims\runfwdSE.smd"
+	"climbanim_anims\runfwdE.smd"
+	"climbanim_anims\runfwdNE.smd"
 	fadein 0.25
 	fadeout 1
 	fps 30
+	blend "move_x" -1 1
+	blend "move_y" -1 1
+	blendwidth 3
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 19 19 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 19 19 target 1
@@ -414,10 +428,21 @@ $sequence "runfwd" {
 }
 
 $sequence "sprintfwd" {
-	"climbanim_anims\sprintfwd.smd"
+	"climbanim_anims\sprintfwdSW.smd"
+	"climbanim_anims\sprintfwdW.smd"
+	"climbanim_anims\sprintfwdNW.smd"
+	"climbanim_anims\sprintfwdS.smd"
+	"climbanim_anims\stand.smd"
+	"climbanim_anims\sprintfwdN.smd"
+	"climbanim_anims\sprintfwdSE.smd"
+	"climbanim_anims\sprintfwdE.smd"
+	"climbanim_anims\sprintfwdNE.smd"
 	fadein 0.25
 	fadeout 1
 	fps 30
+	blend "move_x" -1 1
+	blend "move_y" -1 1
+	blendwidth 3
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 15 15 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 15 15 target 1
@@ -1066,16 +1091,28 @@ $sequence "runfwdstart" {
 }
 
 $sequence "crouchfwd" {
-	"climbanim_anims\crouchfwd.smd"
+	"climbanim_anims\crouchfwdSW.smd"
+	"climbanim_anims\crouchfwdW.smd"
+	"climbanim_anims\crouchfwdNW.smd"
+	"climbanim_anims\crouchfwdS.smd"
+	"climbanim_anims\crouchstill.smd"
+	"climbanim_anims\crouchfwdN.smd"
+	"climbanim_anims\crouchfwdSE.smd"
+	"climbanim_anims\crouchfwdE.smd"
+	"climbanim_anims\crouchfwdNE.smd"
 	fadein 0.25
 	fadeout 1
 	fps 30
+	blend "move_x" -1 1
+	blend "move_y" -1 1
+	blendwidth 3
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
 }
+
 
 $sequence "crouchbwd" {
 	"climbanim_anims\crouchbwd.smd"
@@ -1257,10 +1294,21 @@ $sequence "diestandlong" {
 }
 
 $sequence "walkfwd" {
-	"climbanim_anims\walkfwd.smd"
+	"climbanim_anims\walkfwdSW.smd"
+	"climbanim_anims\walkfwdW.smd"
+	"climbanim_anims\walkfwdNW.smd"
+	"climbanim_anims\walkfwdS.smd"
+	"climbanim_anims\stand.smd"
+	"climbanim_anims\walkfwdN.smd"
+	"climbanim_anims\walkfwdSE.smd"
+	"climbanim_anims\walkfwdE.smd"
+	"climbanim_anims\walkfwdNE.smd"
 	fadein 0.25
 	fadeout 1
 	fps 30
+	blend "move_x" -1 1
+	blend "move_y" -1 1
+	blendwidth 3
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
@@ -1873,9 +1921,9 @@ $sequence "jumpturnflypiecesignloop" {
 
 $sequence "standhandwallright" {
 	"climbanim_anims\standhandwallright.smd"
-	fadein 0.4
-	fadeout 0.4
-	fps 150
+	fadein 0.5
+	fadeout 0.5
+	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 2
@@ -1884,9 +1932,9 @@ $sequence "standhandwallright" {
 
 $sequence "standhandwallleft" {
 	"climbanim_anims\standhandwallleft.smd"
-	fadein 0.4
-	fadeout 0.4
-	fps 150
+	fadein 0.5
+	fadeout 0.5
+	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 2
@@ -1895,14 +1943,48 @@ $sequence "standhandwallleft" {
 
 $sequence "standhandwallboth" {
 	"climbanim_anims\standhandwallboth.smd"
-	fadein 0.4
-	fadeout 0.4
-	fps 150
+	fadein 0.5
+	fadeout 0.5
+	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
 }
+
+$sequence "standhandwallrightdown" {
+	"climbanim_anims\standhandwallrightdown.smd"
+	fadein 0.4
+	fadeout 0.4
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 3
+}
+
+$sequence "standhandwallleftdown" {
+	"climbanim_anims\standhandwallleftdown.smd"
+	fadein 0.4
+	fadeout 0.4
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 3
+}
+
+$sequence "standhandwallbothdown" {
+	"climbanim_anims\standhandwallbothdown.smd"
+	fadein 0.4
+	fadeout 0.4
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
+}
+
 
 $sequence "merollgun" {
 	"climbanim_anims\merollgun.smd"
